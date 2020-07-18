@@ -13,6 +13,7 @@
         <!-- Fonts CSS-->
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/carousel.css"
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
@@ -32,7 +33,7 @@
         </nav>
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/ramya-recipes-profile-pic.png" alt="">
+                <!-- Masthead Avatar Image-->
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading mb-0">RAMYA RECIPES</h1>
                 <!-- Icon Divider-->
@@ -44,6 +45,67 @@
                 <!-- Masthead Subheading-->
                 <p class="pre-wrap masthead-subheading font-weight-light mb-0">Food is essential for LIFE, Make Food with LOVE </p>
             </div>
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                  <li id="carousel__slide1"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper">
+                      <a href="#carousel__slide4"
+                         class="carousel__prev">Go to last slide</a>
+                      <a href="#carousel__slide2"
+                         class="carousel__next">Go to next slide</a>
+                    </div>
+                  </li>
+                  <li id="carousel__slide2"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide1"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide3"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide3"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide2"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide4"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide4"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide3"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide1"
+                       class="carousel__next">Go to first slide</a>
+                  </li>
+                </ol>
+                <aside class="carousel__navigation">
+                  <ol class="carousel__navigation-list">
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide1"
+                         class="carousel__navigation-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide2"
+                         class="carousel__navigation-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide3"
+                         class="carousel__navigation-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide4"
+                         class="carousel__navigation-button">Go to slide 4</a>
+                    </li>
+                  </ol>
+                </aside>
+              </section>
         </header>
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -282,9 +344,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-8">
-                        <p class="pre-wrap lead">
-                            Welcome to my lovely food blog site 🙂 I'm passionate to cook food & I learned recipes from my Mother, She cooks lovely food everyday so everyday we have feast at home 🏡 People who are in search for healthy, tasty and vegetarian recipes you reached the right place 👍 Checkout my recipes, do try and enjoy 😋 Happy Cooking 🍨👩🏻‍🍳 & Have a beautiful day ☀️
+                    <div class="col-lg-12">
+                        <p class="pre-wrap lead">Welcome to my lovely food blog site 🙂 I'm passionate to cook food & I learned recipes from my Mother, She cooks lovely food everyday so everyday we have feast at home 🏡 People who are in search for healthy, tasty and vegetarian recipes you reached the right place 👍 Checkout my recipes, do try and enjoy 😋 Happy Cooking 🍨👩🏻‍🍳 & Have a beautiful day ☀️
                         </p>
                     </div>
                     <!--<div class="col-lg-4 ml-auto">
@@ -326,7 +387,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="mb-4">LOCATION</h4>
                         <p class="pre-wrap lead mb-0">
-Lansing, MI</p>
+</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -351,9 +412,6 @@ Lansing, MI</p>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
